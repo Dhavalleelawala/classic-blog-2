@@ -36,7 +36,9 @@ img{
     width: 100%;
     display: block;
 }
-
+.d-none{
+    display: none;
+}
 .d-flex{
     display: flex;
 }
@@ -101,7 +103,6 @@ img{
     border-radius: 5px;
     color: #cc9900;
     font-size: 21px;
-    display: none;
 }
 
 
@@ -111,7 +112,7 @@ img{
     height: 75vh;
     background:url('../images/hero.jpg');
     background-size: cover;
-
+    background-position: right;
 }
 
  /* introduction section start  */
